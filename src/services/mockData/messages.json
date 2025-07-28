@@ -1,0 +1,89 @@
+[
+  {
+    "Id": 1,
+    "projectId": 1,
+    "title": "Project Kickoff Discussion",
+    "content": "Welcome to the Acme Website Redesign project! Let's use this space to discuss the overall vision and goals for the new website.",
+    "authorName": "Sarah Johnson",
+    "authorAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b27c?w=150",
+    "createdAt": "2024-01-15T09:00:00Z",
+    "updatedAt": "2024-01-15T09:00:00Z",
+    "replies": [
+      {
+        "Id": 1,
+        "content": "Excited to get started! I think we should focus on improving the user experience and making the site more mobile-friendly.",
+        "authorName": "Mike Chen",
+        "authorAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+        "createdAt": "2024-01-15T10:30:00Z",
+        "updatedAt": "2024-01-15T10:30:00Z"
+      },
+      {
+        "Id": 2,
+        "content": "Agreed! Also, we should consider implementing a better content management system for easier updates.",
+        "authorName": "Emily Davis",
+        "authorAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+        "createdAt": "2024-01-15T11:15:00Z",
+        "updatedAt": "2024-01-15T11:15:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "projectId": 1,
+    "title": "Design System Questions",
+    "content": "I have some questions about the design system we'll be using. Should we create a new one from scratch or build upon an existing framework?",
+    "authorName": "Mike Chen",
+    "authorAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+    "createdAt": "2024-01-16T14:20:00Z",
+    "updatedAt": "2024-01-16T14:20:00Z",
+    "replies": [
+      {
+        "Id": 3,
+        "content": "I'd recommend starting with Tailwind CSS as a foundation. It'll speed up development while still giving us flexibility.",
+        "authorName": "Sarah Johnson",
+        "authorAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b27c?w=150",
+        "createdAt": "2024-01-16T15:45:00Z",
+        "updatedAt": "2024-01-16T15:45:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "projectId": 2,
+    "title": "Mobile App Architecture",
+    "content": "Let's discuss the overall architecture for the mobile app. I'm thinking we should go with a React Native solution for cross-platform compatibility.",
+    "authorName": "Alex Thompson",
+    "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+    "createdAt": "2024-01-14T11:00:00Z",
+    "updatedAt": "2024-01-14T11:00:00Z",
+    "replies": []
+  },
+  {
+    "Id": 4,
+    "projectId": 3,
+    "title": "Brand Guidelines Review",
+    "content": "I've prepared the initial brand guidelines for review. Please take a look and share your feedback on the color palette, typography, and logo concepts.",
+    "authorName": "Lisa Wang",
+    "authorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150",
+    "createdAt": "2024-01-13T16:30:00Z",
+    "updatedAt": "2024-01-13T16:30:00Z",
+    "replies": [
+      {
+        "Id": 4,
+        "content": "The color palette looks great! I especially like the blue and green combination. Very modern and professional.",
+        "authorName": "David Kim",
+        "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+        "createdAt": "2024-01-14T09:15:00Z",
+        "updatedAt": "2024-01-14T09:15:00Z"
+      },
+      {
+        "Id": 5,
+        "content": "Could we explore some warmer tones as well? I think it might help make the brand feel more approachable.",
+        "authorName": "Rachel Green",
+        "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+        "createdAt": "2024-01-14T13:20:00Z",
+        "updatedAt": "2024-01-14T13:20:00Z"
+      }
+    ]
+  }
+]

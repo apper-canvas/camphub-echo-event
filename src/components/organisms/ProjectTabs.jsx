@@ -13,12 +13,12 @@ const ProjectTabs = () => {
       path: `/projects/${projectId}/todos`,
       active: true
     },
-    {
+{
       id: "messages",
       name: "Messages",
       icon: "MessageSquare",
       path: `/projects/${projectId}/messages`,
-      active: false
+      active: true
     },
     {
       id: "files",
@@ -68,7 +68,7 @@ const ProjectTabs = () => {
             >
               <ApperIcon name={tab.icon} size={16} />
               <span>{tab.name}</span>
-              {!tab.active && tab.id !== "todos" && (
+{!tab.active && tab.id !== "todos" && tab.id !== "messages" && (
                 <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">
                   Coming Soon
                 </span>
