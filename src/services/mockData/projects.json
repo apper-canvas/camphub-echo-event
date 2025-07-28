@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "name": "Website Redesign",
+    "description": "Complete overhaul of the company website with modern design and improved user experience",
+    "color": "#1d4ed8",
+    "teamMembers": [
+      {
+        "id": "1",
+        "name": "Sarah Chen",
+        "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b1e7?w=40&h=40&fit=crop&crop=face",
+        "role": "Design Lead"
+      },
+      {
+        "id": "2",
+        "name": "Mike Johnson",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",
+        "role": "Developer"
+      },
+      {
+        "id": "3",
+        "name": "Emily Davis",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face",
+        "role": "Content Manager"
+      }
+    ],
+    "createdAt": "2024-01-15T10:00:00Z",
+    "updatedAt": "2024-01-20T14:30:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Mobile App Launch",
+    "description": "Develop and launch our first mobile application for iOS and Android platforms",
+    "color": "#7c3aed",
+    "teamMembers": [
+      {
+        "id": "4",
+        "name": "Alex Rodriguez",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face",
+        "role": "Product Manager"
+      },
+      {
+        "id": "5",
+        "name": "Lisa Wang",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face",
+        "role": "Mobile Developer"
+      }
+    ],
+    "createdAt": "2024-01-10T09:00:00Z",
+    "updatedAt": "2024-01-18T16:45:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Marketing Campaign Q1",
+    "description": "Comprehensive marketing strategy and campaign execution for the first quarter",
+    "color": "#10b981",
+    "teamMembers": [
+      {
+        "id": "6",
+        "name": "David Kim",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face",
+        "role": "Marketing Director"
+      },
+      {
+        "id": "7",
+        "name": "Rachel Green",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=40&h=40&fit=crop&crop=face",
+        "role": "Creative Director"
+      },
+      {
+        "id": "8",
+        "name": "Tom Wilson",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=40&h=40&fit=crop&crop=face",
+        "role": "Analytics Specialist"
+      }
+    ],
+    "createdAt": "2024-01-05T11:30:00Z",
+    "updatedAt": "2024-01-19T13:20:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Customer Support System",
+    "description": "Implementation of a new customer support ticketing system and knowledge base",
+    "color": "#f59e0b",
+    "teamMembers": [
+      {
+        "id": "9",
+        "name": "Jennifer Lopez",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=40&h=40&fit=crop&crop=face",
+        "role": "Support Manager"
+      },
+      {
+        "id": "10",
+        "name": "Chris Brown",
+        "avatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=40&h=40&fit=crop&crop=face",
+        "role": "Systems Admin"
+      }
+    ],
+    "createdAt": "2024-01-12T08:15:00Z",
+    "updatedAt": "2024-01-17T10:10:00Z"
+  }
+]

@@ -1,0 +1,66 @@
+@import "react-toastify/dist/ReactToastify.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  html {
+    @apply font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .toast-container {
+    @apply text-sm;
+  }
+  
+  .Toastify__toast {
+    @apply rounded-lg shadow-lg;
+  }
+  
+  .Toastify__toast--success {
+    @apply bg-surface border-l-4 border-success text-gray-800;
+  }
+  
+  .Toastify__toast--error {
+    @apply bg-surface border-l-4 border-danger text-gray-800;
+  }
+  
+  .Toastify__toast--info {
+    @apply bg-surface border-l-4 border-info text-gray-800;
+  }
+  
+  .checkbox-animation {
+    @apply transition-all duration-200 ease-out;
+  }
+  
+  .checkbox-animation:checked {
+    @apply scale-105;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-200 ease-out hover:scale-[1.02] hover:shadow-lg;
+  }
+  
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20;
+  }
+  
+  .progress-ring {
+    @apply transition-all duration-300 ease-out;
+  }
+}
