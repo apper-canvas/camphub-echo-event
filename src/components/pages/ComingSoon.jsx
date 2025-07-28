@@ -12,7 +12,6 @@ const ComingSoon = () => {
   
   const sectionIcons = {
     messages: "MessageSquare",
-    files: "FileText",
     campfire: "Flame",
     schedule: "Calendar",
     documents: "FileText"
@@ -20,7 +19,6 @@ const ComingSoon = () => {
   
   const sectionDescriptions = {
     messages: "Team discussions and announcements",
-    files: "Share and organize project files",
     campfire: "Real-time team chat and collaboration",
     schedule: "Project timeline and milestones",
     documents: "Project documentation and notes"
@@ -63,23 +61,6 @@ const ComingSoon = () => {
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
                 <span className="text-gray-700">File attachments</span>
-              </div>
-            </>
-          )}
-          
-          {sectionName === "files" && (
-            <>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-gray-700">File upload and sharing</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-gray-700">Version control</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-gray-700">Preview and comments</span>
               </div>
             </>
           )}

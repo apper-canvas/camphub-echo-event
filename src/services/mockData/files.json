@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "name": "Project Proposal.pdf",
+    "type": "application/pdf",
+    "size": 2048576,
+    "uploadDate": "2024-01-15T10:30:00Z",
+    "uploadedBy": "Sarah Chen",
+    "uploadedById": 1,
+    "folderId": null,
+    "projectId": 1,
+    "url": "https://example.com/files/project-proposal.pdf",
+    "description": "Initial project proposal document",
+    "tags": ["proposal", "planning"],
+    "versions": [
+      {
+        "Id": 1,
+        "version": "1.0",
+        "uploadDate": "2024-01-15T10:30:00Z",
+        "uploadedBy": "Sarah Chen",
+        "size": 2048576,
+        "url": "https://example.com/files/project-proposal-v1.pdf",
+        "changes": "Initial version"
+      }
+    ],
+    "comments": [
+      {
+        "Id": 1,
+        "authorName": "Mike Johnson",
+        "authorId": 2,
+        "content": "This looks great! I have a few suggestions on the timeline section.",
+        "createdAt": "2024-01-15T14:20:00Z",
+        "updatedAt": "2024-01-15T14:20:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Design Assets",
+    "type": "folder",
+    "uploadDate": "2024-01-10T09:00:00Z",
+    "uploadedBy": "Alex Kim",
+    "uploadedById": 3,
+    "folderId": null,
+    "projectId": 1,
+    "description": "Collection of design files and assets"
+  },
+  {
+    "Id": 3,
+    "name": "logo-design.png",
+    "type": "image/png",
+    "size": 512000,
+    "uploadDate": "2024-01-12T16:45:00Z",
+    "uploadedBy": "Alex Kim",
+    "uploadedById": 3,
+    "folderId": 2,
+    "projectId": 1,
+    "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400",
+    "description": "Primary logo design concept",
+    "tags": ["logo", "branding"],
+    "versions": [
+      {
+        "Id": 1,
+        "version": "1.0",
+        "uploadDate": "2024-01-12T16:45:00Z",
+        "uploadedBy": "Alex Kim",
+        "size": 512000,
+        "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400",
+        "changes": "Initial design"
+      },
+      {
+        "Id": 2,
+        "version": "1.1",
+        "uploadDate": "2024-01-14T11:30:00Z",
+        "uploadedBy": "Alex Kim",
+        "size": 518000,
+        "url": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=450",
+        "changes": "Updated colors and typography"
+      }
+    ],
+    "comments": []
+  },
+  {
+    "Id": 4,
+    "name": "requirements.md",
+    "type": "text/markdown",
+    "size": 15360,
+    "uploadDate": "2024-01-08T13:20:00Z",
+    "uploadedBy": "Sarah Chen",
+    "uploadedById": 1,
+    "folderId": null,
+    "projectId": 1,
+    "url": "data:text/plain;base64,IyBQcm9qZWN0IFJlcXVpcmVtZW50cw==",
+    "description": "Detailed project requirements and specifications",
+    "tags": ["requirements", "documentation"],
+    "versions": [
+      {
+        "Id": 1,
+        "version": "1.0",
+        "uploadDate": "2024-01-08T13:20:00Z",
+        "uploadedBy": "Sarah Chen",
+        "size": 15360,
+        "url": "data:text/plain;base64,IyBQcm9qZWN0IFJlcXVpcmVtZW50cw==",
+        "changes": "Initial requirements document"
+      }
+    ],
+    "comments": [
+      {
+        "Id": 1,
+        "authorName": "Mike Johnson",
+        "authorId": 2,
+        "content": "Should we add more details about the authentication requirements?",
+        "createdAt": "2024-01-09T10:15:00Z",
+        "updatedAt": "2024-01-09T10:15:00Z"
+      },
+      {
+        "Id": 2,
+        "authorName": "Sarah Chen",
+        "authorId": 1,
+        "content": "Good point! I'll update this in the next version.",
+        "createdAt": "2024-01-09T10:45:00Z",
+        "updatedAt": "2024-01-09T10:45:00Z"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "meeting-notes.txt",
+    "type": "text/plain",
+    "size": 8192,
+    "uploadDate": "2024-01-18T15:30:00Z",
+    "uploadedBy": "Mike Johnson",
+    "uploadedById": 2,
+    "folderId": null,
+    "projectId": 1,
+    "url": "data:text/plain;base64,TWVldGluZyBOb3RlcyAtIEphbnVhcnkgMTh0aA==",
+    "description": "Notes from weekly team meeting",
+    "tags": ["meeting", "notes"],
+    "versions": [
+      {
+        "Id": 1,
+        "version": "1.0",
+        "uploadDate": "2024-01-18T15:30:00Z",
+        "uploadedBy": "Mike Johnson",
+        "size": 8192,
+        "url": "data:text/plain;base64,TWVldGluZyBOb3RlcyAtIEphbnVhcnkgMTh0aA==",
+        "changes": "Meeting notes from 1/18 standup"
+      }
+    ],
+    "comments": []
+  }
+]

@@ -20,12 +20,12 @@ const ProjectTabs = () => {
       path: `/projects/${projectId}/messages`,
       active: true
     },
-    {
+{
       id: "files",
       name: "Files",
       icon: "FileText",
       path: `/projects/${projectId}/files`,
-      active: false
+      active: true
     },
     {
       id: "campfire",
